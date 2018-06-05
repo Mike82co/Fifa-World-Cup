@@ -1,0 +1,105 @@
+
+#root  header  img{
+  height: 5em;
+
+}
+body{
+  background-color: rgb(0, 91, 165);
+  background-image: url('http://backgroundcheckall.com/wp-content/uploads/2017/12/background-soccer-8.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: rgb(229, 198, 133);
+  font-family: 'Righteous', cursive;
+}
+.playerImg{
+  height: 10em;
+  
+}
+.playersContainer{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around
+}
+.stadiumContainer{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  
+}
+.player{
+  flex:20%
+}
+#playerName{
+  font-size: 2em;
+}
+
+.App-header{
+  display: flex;
+  background-color: rgba(1, 83, 134);
+  justify-content: space-between;
+  
+}
+button{
+  margin-left: 1em;
+  margin-right:1em;
+  margin-top: 1em;
+  background-color: rgba(204, 204, 204,0.4);
+  color: rgb(229, 198, 133);
+  border: solid;
+  border-color: rgb(229, 198, 133);
+  font-size: 1em;
+  
+}
+input{
+  margin-left: 1em;
+  width: 5em;
+  background-color: grey;
+  color:  white;
+  font-size: 1em;
+
+
+}
+.stadiumImages{
+  height: 10em;
+
+}
+.teamFlag{
+  height: 1em;
+
+}
+.stadium{
+  margin: 2em;
+}
+.stadiumName{
+  background-color: rgba(1, 83, 134);
+  padding: .5em; 
+}
+
+li{
+  margin: 2em;
+}
+.teamFlag{
+  margin-right: 1em;
+}
+.displayButtonContainer{
+  display: flex;
+  justify-content: center;
+}
+#descriptionOfPage{
+  text-align: center;
+  font-size: 1.5em;
+  background-color: rgba(1, 83, 134);
+}
+#splashImg{
+  height:40vh;
+  align-self: center;
+  
+}
+.splashTitle{
+  font-size: 4em;
+  text-align: center
+}
+.splashContainer{
+  display: flex;
+  flex-direction: column
+}
