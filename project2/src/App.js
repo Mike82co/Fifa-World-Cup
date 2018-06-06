@@ -78,9 +78,3 @@ class App extends Component {
 }
 
 export default App;
-
-//mapquest key 0GWvXgIBz4p32KrdiPF689PP47IWIXBK
-
-//marvel key dc15820cb2068a1073e1b89e219c207375e51332
-
-//wsuperheroapi.com key 10160495461070405
