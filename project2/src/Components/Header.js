@@ -2,8 +2,7 @@ import React from 'react';
 
 const Header = (props) => {
 
-  return (
-    
+  return (    
     <header className="App-header">
       {this.testFun}
       <img src="../assets/WC-Logo.png" className="App-logo" alt="logo" />

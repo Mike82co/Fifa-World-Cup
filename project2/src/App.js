@@ -65,9 +65,11 @@ class App extends Component {
           </div>
           {this.state.displaySPlash? <Splash />:null}
           {this.state.dataIsLoaded && this.state.displayStadiums? <Stadiums updateStadiums = {this.state.data.stadiums}/> : null}
+          <ul>
           {this.state.dataIsLoaded && this.state.displayTeams?this.state.data.teams.map((team , index) => {
             return <Teams flag= {team.flag} name= {team.name} />
           }):null}
+          </ul>
         </main>
         <Footer />
       </React.Fragment>

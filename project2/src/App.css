@@ -37,7 +37,6 @@ body{
   display: flex;
   background-color: rgba(1, 83, 134);
   justify-content: space-between;
-  
 }
 button{
   margin-left: 1em;
@@ -48,7 +47,10 @@ button{
   border: solid;
   border-color: rgb(229, 198, 133);
   font-size: 1em;
-  
+}
+button:hover{
+  background-color: rgba(1, 83, 134);
+  font-size: 1.05em;
 }
 input{
   margin-left: 1em;
@@ -56,8 +58,6 @@ input{
   background-color: grey;
   color:  white;
   font-size: 1em;
-
-
 }
 .stadiumImages{
   height: 10em;
