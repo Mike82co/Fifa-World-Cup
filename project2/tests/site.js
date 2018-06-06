@@ -38,6 +38,4 @@ describe('Test project 2',()=>{
         cy.get('#playerName')
         .contains('Batgirl III')
     })
-
-
 })
