@@ -10,7 +10,7 @@ This is a deployed website. There is no instalation required
 ```
 Internet Connection and a web brower is all you need
 ```
-
+![Screen Shot](screenshot.png)
 
 ## Built With
 
